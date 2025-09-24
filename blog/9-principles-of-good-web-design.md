@@ -6,6 +6,7 @@ image: /img/codeharborhub-social-card.jpg
 authors: [ajay-dhangar]
 description: "Discover the 9 essential principles of good web design that enhance user experience and drive engagement. Learn how to create visually appealing, user-friendly websites that stand out."
 sidebar_label: Web Design Principles
+hide_table_of_contents: true
 ---
 
 <!-- 

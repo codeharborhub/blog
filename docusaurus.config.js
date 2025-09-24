@@ -47,29 +47,23 @@ const config = {
             "**/_*.{js,jsx,ts,tsx,md,mdx}",
             "**/_*/**",
             "**/*.test.{js,jsx,ts,tsx}",
-            "**/__tests__/**"
+            "**/__tests__/**",
           ],
           showReadingTime: true,
           onUntruncatedBlogPosts: "ignore",
           editUrl: "https://github.com/codeharborhub/blog/edit/main/",
           remarkPlugins: [
-            [
-              require("@docusaurus/remark-plugin-npm2yarn"),
-              { sync: true }
-            ]
+            [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
           ],
 
           feedOptions: {
-            type: 'all',
+            type: "all",
             copyright: `© ${new Date().getFullYear()} CodeHarborHub`,
           },
 
           remarkPlugins: [
-            [
-              require("@docusaurus/remark-plugin-npm2yarn"),
-              { sync: true }
-            ],
-            remarkMath
+            [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
+            remarkMath,
           ],
 
           rehypePlugins: [rehypeKatex],
@@ -496,6 +490,7 @@ const config = {
         keys: "Some-keys",
       },
     ],
+    "docusaurus-plugin-sass",
   ],
 };
 
