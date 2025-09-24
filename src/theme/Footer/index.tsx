@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
               <ul className="list-none pl-0">
                 <li>
                   <Link
-                    to="/docs/"
+                    to="https://codeharborhub.github.io/docs/"
                     className="mb-3 inline-block text-base text-gray-300 hover:text-[--ifm-color-primary]"
                   >
                     Tutorials
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/courses/"
+                    to="https://codeharborhub.github.io/courses/"
                     className="mb-3 inline-block text-base text-gray-300 hover:text-[--ifm-color-primary]"
                   >
                     Courses
@@ -153,7 +153,7 @@ const Footer: React.FC = () => {
               <ul className="list-none pl-0">
                 <li>
                   <Link
-                    to="/about/"
+                    to="https://codeharborhub.github.io/about/"
                     className="mb-3 inline-block text-base text-gray-300 hover:text-[--ifm-color-primary]"
                   >
                     About Us
@@ -161,7 +161,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/contact/"
+                    to="https://codeharborhub.github.io/contact/"
                     className="mb-3 inline-block text-base text-gray-300 hover:text-[--ifm-color-primary]"
                   >
                     Contact Us
@@ -169,7 +169,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/careers/"
+                    to="https://codeharborhub.github.io/careers/"
                     className="mb-3 inline-block text-base text-gray-300 hover:text-[--ifm-color-primary]"
                   >
                     Careers
@@ -177,7 +177,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/community/team/"
+                    to="https://codeharborhub.github.io/community/team/"
                     className="mb-3 inline-block text-base text-gray-300 hover:text-[--ifm-color-primary]"
                   >
                     Our Team
@@ -185,7 +185,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    to="/blog"
+                    to="https://codeharborhub.github.io/blog"
                     className="mb-3 inline-block text-base text-gray-300 hover:text-[--ifm-color-primary]"
                   >
                     All Blog
@@ -282,25 +282,25 @@ const Footer: React.FC = () => {
               <div className="my-1">
                 <div className="-mx-3 flex items-center justify-center md:justify-start">
                   <Link
-                    to="/privacy-policy/"
+                    to="https://codeharborhub.github.io/privacy-policy/"
                     className="px-3 text-base text-gray-300 hover:text-[--ifm-color-primary] hover:underline"
                   >
                     Privacy policy
                   </Link>
                   <Link
-                    to="/code-of-conduct/"
+                    to="https://codeharborhub.github.io/code-of-conduct/"
                     className="px-3 text-base text-gray-300 hover:text-[--ifm-color-primary] hover:underline"
                   >
                     Code of conduct
                   </Link>
                   <Link
-                    to="/terms-service/"
+                    to="https://codeharborhub.github.io/terms-service/"
                     className="px-3 text-base text-gray-300 hover:text-[--ifm-color-primary] hover:underline"
                   >
                     Terms of service
                   </Link>
                   <Link
-                    to="/License/"
+                    to="https://codeharborhub.github.io/License/"
                     className="px-3 text-base text-gray-300 hover:text-[--ifm-color-primary] hover:underline"
                   >
                     License
