@@ -1,4 +1,4 @@
-import { default as npm2yarn } from "@docusaurus/remark-plugin-npm2yarn";
+// import { default as npm2yarn } from "@docusaurus/remark-plugin-npm2yarn";
 import { themes as prismThemes } from "prism-react-renderer";
 
 const remarkMath = require("remark-math");
@@ -8,7 +8,7 @@ const path = require("path");
 require("dotenv").config();
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+const config = {y
   title: "CodeHarborHub",
   tagline: "A place to learn and grow",
   favicon: "img/favicon_io/favicon.ico",
@@ -52,12 +52,12 @@ const config = {
           showReadingTime: true,
           onUntruncatedBlogPosts: "ignore",
           editUrl: "https://github.com/codeharborhub/blog/edit/main/",
-          // remarkPlugins: [
-          //   [
-          //     require("@docusaurus/remark-plugin-npm2yarn"),
-          //     { sync: true }
-          //   ]
-          // ],
+          remarkPlugins: [
+            [
+              require("@docusaurus/remark-plugin-npm2yarn"),
+              { sync: true }
+            ]
+          ],
 
           feedOptions: {
             type: 'all',
