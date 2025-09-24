@@ -137,102 +137,35 @@ const config = {
         logo: {
           alt: "CodeHarborHub Logo",
           src: "img/nav-logo.jpg",
+          href: "https://codeharborhub.github.io",
+          target: "_self",
         },
         items: [
           {
-            type: "dropdown",
-            html: '<span class="nav-emoji">📚</span> Docs',
-            position: "left",
-            items: [
-              {
-                type: "html",
-                value: `<div class="dropdown_grid">
-                <a class="dropbtn" href="https://codeharborhub.github.io/docs/">Docs</a>
-                <div class="dropdown-content">
-                  <a href="#" class="nav__icons"> <img src="/icons/html-5.svg" title="HTML5" alt="HTML" /> </a>
-                  <a href="#" class="nav__icons"> <img src="/icons/css.svg" title="CSS" alt="CSS" /> </a>
-                  <a href="#" class="nav__icons" > <img src="/icons/js.svg" title="JavaScript" alt="JavaScript" /> </a>
-                  <a href="#" class="nav__icons"> <img src="/icons/jsx.svg" title="React.Js" alt="React" /> </a>
-                  <a href="#" class="nav__icons"> <img src="/icons/ts.svg" title="TypeScript" alt="TypeScript" /> </a>
-                  <a href="#" class="nav__icons"> <img src="/icons/py.svg" title="Python" alt="Python" /> </a>
-                  <a href="#" class="nav__icons"> <img src="/icons/tailwind-css.svg" title="Tailwind CSS" alt="Tailwind" /> </a>
-                  <a href="#" class="nav__icons"> <img src="/icons/next-js.svg" title="NextJs" alt="Next" /> </a>
-                </div>
-              </div>`,
-              },
-
-              {
-                type: "html",
-                value: '<hr style="margin: 0.3rem 0;">',
-              },
-
-              {
-                type: "html",
-                value: `<div class="dropdown_grid">
-                <a class="dropbtn" href="#"> Courses </a>
-                <div class="dropdown-content">
-                  <a href="#" class="nav__icons"> <img src="/icons/html-5.svg" alt="HTML" /> </a>
-                  <a href="#" class="nav__icons"> <img src="/icons/jsx.svg" alt="React" /> </a>
-                </div>
-              </div>`,
-              },
-
-              {
-                type: "html",
-                value: '<hr style="margin: 0.3rem 0;">',
-              },
-
-              {
-                type: "html",
-                value: `<div class="dropdown_grid">
-                <a class="dropbtn" href="https://codeharborhub.github.io/dsa/" target="_self"> DSA </a>
-                <div class="dropdown-content dsa-content ">
-                  <a href="https://codeharborhub.github.io/dsa/problems/" target="_self" class="nav__icons"> 🧩Problems </a> <br />
-                  <a href="https://codeharborhub.github.io/dsa/solutions/" target="_self" class="nav__icons  "> 💡Solutions </a>
-                </div>
-              </div>`,
-              },
-            ],
+            label: "All Blogs",
+            to: "/",
+            activeBaseRegex: "/",
           },
           {
-            to: "#",
-            html: '<span class="nav-emoji">🌍</span> Showcase',
-            position: "left",
+            label: "Authors",
+            to: "/authors/",
+            activeBaseRegex: "/authors/",
           },
           {
-            to: "#",
-            html: '<span class="nav-emoji">🤝</span> Community',
-            position: "left",
-          },
-          {
-            to: "#",
-            html: '<span class="nav-emoji">💰</span> Donate',
-          },
-          {
-            to: "#",
-            html: '<span class="nav-emoji">📰</span> Blog',
-          },
-          {
-            to: "#",
-            html: '<span class="nav-emoji">💡</span> Feature Requests',
+            label: "🏷️ Blog Tags",
+            to: "/tags/",
+            activeBaseRegex: "/tags/",
           },
           {
             type: "search",
             position: "right",
           },
-          // {
-          //   href: "https://github.com/codeharborhub/codeharborhub",
-          //   position: "right",
-          //   className: "header-github-link",
-          //   "aria-label": "GitHub repository",
-          // },
-          // {
-          //   href: "https://www.codeharborhub.live/register",
-          //   position: "right",
-          //   className: "header-signup-link",
-          //   "aria-label": "Auth",
-          //   label: "Auth",
-          // },
+          {
+            href: "https://github.com/codeharborhub",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
+          },
         ],
         // hideOnScroll: true,
       },
