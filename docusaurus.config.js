@@ -8,7 +8,7 @@ const path = require("path");
 require("dotenv").config();
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {y
+const config = {
   title: "CodeHarborHub",
   tagline: "A place to learn and grow",
   favicon: "img/favicon_io/favicon.ico",
