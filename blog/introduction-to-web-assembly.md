@@ -13,6 +13,9 @@ WebAssembly (Wasm) is a binary instruction format that provides near-native perf
 
 <!-- truncate -->
 
+<AdsComponent />
+<br />
+
 ## What is WebAssembly (Wasm)?
 
 WebAssembly is a low-level, assembly-like language with a compact binary format that runs with near-native performance. It provides a new way to run code written in multiple languages on the web at near-native speed, allowing for powerful web applications.
@@ -57,6 +60,9 @@ To compile your code to WebAssembly, follow these steps:
 ```
 rustc --target wasm32-unknown-unknown -O your_code.rs
 ```
+
+<AdsComponent />
+<br />
 
 ## Interfacing with JavaScript
 

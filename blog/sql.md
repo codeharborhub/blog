@@ -13,6 +13,9 @@ Structured query language (SQL) is a programming language for storing and proces
 
 <!-- truncate -->
 
+<AdsComponent />
+<br />
+
 ## Why is SQL important?
 
 Structured query language (SQL) is a popular query language that is frequently used in all types of applications. Data analysts and developers learn and use SQL because it integrates well with different programming languages. For example, they can embed SQL queries with the Java programming language to build high-performing data processing applications with major SQL database systems such as Oracle or MS SQL Server. SQL is also fairly easy to learn as it uses common English keywords in its statements
@@ -33,6 +36,9 @@ Structured Query Language contains the following four components in its process:
 - SQL Query Engine, etc.
 
 A classic query engine allows data professionals and users to maintain non-SQL queries. The architecture of SQL is shown in the following diagram:
+
+<AdsComponent />
+<br />
 
 ## What are the components of a SQL system?
 
@@ -59,6 +65,9 @@ INSERT INTO Mattress_table (brand_name, cost)
 
 Stored procedures are a collection of one or more SQL statements stored in the relational database. Software developers use stored procedures to improve efficiency and performance. For example, they can create a stored procedure for updating sales tables instead of writing the same SQL statement in different applications.
 
+<AdsComponent />
+<br />
+
 ## What are SQL commands?
 
 Structured query language (SQL) commands are specific keywords or SQL statements that developers use to manipulate the data stored in a relational database. You can categorize SQL commands as follows.
@@ -82,6 +91,9 @@ Database administrators use data control language (DCL) to manage or authorize d
 ### Transaction control language
 
 The relational engine uses transaction control language (TCL) to automatically make database changes. For example, the database uses the ROLLBACK command to undo an erroneous transaction.
+
+<AdsComponent />
+<br />
 
 ## What is MySQL?
 

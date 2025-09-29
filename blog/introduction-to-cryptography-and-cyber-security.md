@@ -13,6 +13,9 @@ In the realm of cyber security, cryptography stands as a critical tool for prote
 
 <!-- truncate -->
 
+<AdsComponent />
+<br />
+
 ## Understanding Cryptography
 
 Cryptography is the science of encoding and decoding information to protect it from unauthorized access. It involves various techniques and algorithms that transform readable data, known as plaintext, into an unreadable format, known as ciphertext. Only those who possess the appropriate decryption key can convert the ciphertext back into plaintext.
@@ -31,6 +34,9 @@ Cryptography has been used for centuries to secure communication. Some historica
 - **Caesar Cipher**: Used by Julius Caesar to protect military messages, this substitution cipher shifts letters by a fixed number of positions in the alphabet.
 - **Enigma Machine**: Used by the Germans during World War II, this electromechanical device encrypted messages. The successful decryption of Enigma-encrypted messages by the Allies significantly impacted the war's outcome.
 - **Diffie-Hellman Key Exchange**: Introduced in 1976, this method allowed secure key exchange over a public channel, laying the groundwork for modern public-key cryptography.
+
+<AdsComponent />
+<br />
 
 ## Cryptography in Modern Cyber Security
 
@@ -55,6 +61,9 @@ Cryptography is the backbone of blockchain technology. Cryptographic hashing ens
 ### Secure Storage
 
 Encrypting data at rest ensures that even if unauthorized individuals gain access to storage media, they cannot read the data without the decryption key. This is crucial for protecting sensitive information on devices and in cloud storage.
+
+<AdsComponent />
+<br />
 
 ## Challenges in Cryptography
 
