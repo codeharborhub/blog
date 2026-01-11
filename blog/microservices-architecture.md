@@ -2,7 +2,7 @@
 slug: microservices-architecture
 title: "Microservices Architecture"
 sidebar_label: Microservices Basics
-image: /img/codeharborhub-social-card.jpg
+image: /img/microservices-architecture.jpg
 authors: [ajay-dhangar]
 tags: [microservices, architecture]
 date: 2024-07-29

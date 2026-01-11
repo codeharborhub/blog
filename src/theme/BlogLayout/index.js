@@ -1,4 +1,3 @@
-import React from 'react'
 import clsx from 'clsx'
 import Layout from '@theme/Layout'
 import BlogSidebar from '@theme/BlogSidebar'
@@ -9,7 +8,7 @@ export default function BlogLayout(props) {
 
   return (
     <Layout {...layoutProps}>
-      <div className='max-w-7xl px-8 py-8 mx-auto mt-4'>
+      <div className='px-4 py-8 mt-4'>
         <div className='row'>
           <BlogSidebar sidebar={sidebar} hideOnDesktop />
           <main

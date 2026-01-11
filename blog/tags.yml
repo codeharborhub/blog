@@ -242,3 +242,28 @@ react-js:
   label: 'React JS'
   permalink: '/react-js'
   description: 'Articles on the topic React JS'
+
+gsoc:
+  label: 'GSoC'
+  permalink: '/gsoc'
+  description: 'Articles, guides, and updates related to Google Summer of Code (GSoC)'
+
+open-source:
+  label: 'Open Source'
+  permalink: '/open-source'
+  description: 'Content focused on open-source software, contributions, and communities'
+
+google:
+  label: 'Google'
+  permalink: '/google'
+  description: 'Programs, technologies, and initiatives by Google'
+
+internship:
+  label: 'Internship'
+  permalink: '/internship'
+  description: 'Internship opportunities, preparation guides, and experiences'
+
+career:
+  label: 'Career'
+  permalink: '/career'
+  description: 'Career guidance, growth strategies, and professional development in tech'
