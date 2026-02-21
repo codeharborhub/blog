@@ -39,6 +39,8 @@ const config = {
           blogDescription:
             "Welcome to CodeHarborHub blog, a place to learn and grow. We provide accessible and comprehensive educational resources to learners of all levels, from beginners to advanced professionals. Our mission is to empower individuals with the knowledge and skills they need to succeed in today's fast-paced world. Whether you're looking to learn a new skill, advance your career, or simply explore new ideas, CodeHarborHub has something for you.",
           postsPerPage: 6,
+          blogSidebarCount: 5,
+          blogSidebarTitle: 'All our posts',
           truncateMarker: /<!--\s*(truncate)\s*-->/,
           blogSidebarTitle: "List blog",
           blogSidebarCount: "ALL",
@@ -49,7 +51,6 @@ const config = {
             "**/*.test.{js,jsx,ts,tsx}",
             "**/__tests__/**",
           ],
-          showReadingTime: true,
           onUntruncatedBlogPosts: "ignore",
           editUrl: "https://github.com/codeharborhub/blog/edit/main/",
           remarkPlugins: [
@@ -57,8 +58,21 @@ const config = {
           ],
 
           feedOptions: {
-            type: "all",
+            type: 'all', // Generates RSS, Atom, and JSON
+            title: 'CodeHarborHub Awesome Blog Feed',
+            description: 'Stay updated with our latest posts',
             copyright: `© ${new Date().getFullYear()} CodeHarborHub`,
+            xslt: true, // Makes the feed pretty in browsers
+            // language: undefined,
+            limit: 10,
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
           },
 
           remarkPlugins: [

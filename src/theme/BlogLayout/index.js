@@ -10,17 +10,17 @@ export default function BlogLayout(props) {
     <Layout {...layoutProps}>
       <div className='px-4 py-8 mt-4'>
         <div className='row'>
-          <BlogSidebar sidebar={sidebar} hideOnDesktop />
+          <BlogSidebar sidebar={sidebar} />
           <main
             className={clsx('col', {
-              'col--12': hasSidebar && !toc,
-              'col--9': hasSidebar && toc,
-              'col--9 col--offset-1': !hasSidebar
+              'col--9': hasSidebar && !toc,
+              'col--7': hasSidebar && toc,
+              'col--3 col--offset-1': !hasSidebar
             })}
           >
             {children}
           </main>
-          {toc && <div className='col col--3'>{toc}</div>}
+          {toc && <div className='col col--2'>{toc}</div>}
         </div>
       </div>
     </Layout>
