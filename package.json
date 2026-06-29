@@ -41,7 +41,7 @@
     "@mdx-js/react": "^3.0.0",
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-slot": "^1.2.3",
-    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/react": "^4.3.0",
     "@tsparticles/slim": "^3.4.0",
     "@types/react": "^18.3.9",
     "@types/react-dom": "^18.3.0",
