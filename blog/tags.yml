@@ -267,3 +267,18 @@ career:
   label: 'Career'
   permalink: '/career'
   description: 'Career guidance, growth strategies, and professional development in tech'
+
+opencv:
+  label: 'OpenCV'
+  permalink: '/opencv'
+  description: 'Articles and tutorials related to OpenCV, computer vision, and image processing'
+
+computer-vision:
+  label: 'Computer Vision'
+  permalink: '/computer-vision'
+  description: 'Content focused on computer vision techniques, applications, and research'
+
+tutorial:
+  label: 'Tutorial'
+  permalink: '/tutorial'
+  description: 'Step-by-step guides and tutorials on various programming and technology topics'
