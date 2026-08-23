@@ -77,7 +77,7 @@ function BlogListPageContent(props) {
     <BlogLayout sidebar={sidebar}>
       <BlogHomepageBanner {...props} />
       <BlogPostItems items={items} />
-      <BlogPagination metadata={metadata} />
+      {/* <BlogPagination metadata={metadata} /> */}
     </BlogLayout>
   );
 }
